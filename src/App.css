@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+.react-flow__handle-top,
+.react-flow__handle-bottom {
+  opacity: 0;
+  pointer-events: none;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
